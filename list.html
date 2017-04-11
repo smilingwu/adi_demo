@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>列表页</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Toastr style -->
+		<link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<!--时间插件样式-->
+		<link href="css/dcalendar.picker.css" rel="stylesheet">
+		<!--<link href="css/htmleaf-demo.css" rel="stylesheet">-->
+	</head>
+
+	<body id="list-page">
+		<div class="loading"><img src="img/loading.gif" alt="加载..." /></div>
+		<div class="container-fluid p0">
+			<div class="wrap-box">
+				<header class="list-header">
+					<span class="header-text">Welcome administrator to Online CR Tracking System.</span>
+					<div class="head-right fr icon">
+						<div class="icon icon1 fl">
+							<i></i>
+						</div>
+						<div class="icon icon2 fl">
+							<i></i>
+						</div>
+						<div class="icon icon3 fl">
+							<i></i>
+						</div>
+					</div>
+				</header>
+				<nav class="nav-list">
+					<div class="nav-left fl">
+						<i></i>
+					</div>
+					<div class="nav-right fr">
+						<ul class="index-items clearfloat fix-width">
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Task.png" alt="task" /></a>
+									<p>Task</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/CR-Tracker.png" alt="CRTracker" /></a>
+									<p>CR Tracker</p>
+								</div>
+								<div class="wrap-container">
+									<ul class="wrap-items list-items">
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Inquiry.png" /></a>
+											<p>CR Inquiry</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Tracking.png" /></a>
+											<p>CR Tracking</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Creation.png" /></a>
+											<p>CR Creation</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Mass Upload.png" /></a>
+											<p>Mass Upload</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PO Detail.png" /></a>
+											<p>PO Detail</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PO Detail Upload.png" /></a>
+											<p>PO Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/GR Detail.png" /></a>
+											<p>GR Detail</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/GR Detail Upload.png" /></a>
+											<p>GR Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/IR Detail.png" /></a>
+											<p>IR Detail</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/IR Detail Upload.png" /></a>
+											<p>IR Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/Down Pay Detail.png" /></a>
+											<p>Down Pay Detail</p>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Document-Library.png" alt="DocumentLibray" /></a>
+									<p>Document<br>Libray</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Reports.png" alt="reportsoff" /></a>
+									<p>Reports</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Master-Data.png" alt="masterdata" /></a>
+									<p>Master Data</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/System-Admin.png" alt="SystemAdmin" /></a>
+									<p>System<br>Admin</p>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/CR-Online-Creation.png" alt="CROnlineCreation" /></a>
+									<p>CR Online</p>
+								</div>
+								<div class="wrap-container">
+									<ul class="online list-item-online">
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PR-Online-List.png" /></a>
+											<p>PR <br>Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/VR-Online-List.png" /></a>
+											<p>VR <br>Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Nwxt-Approver-Online-List.png" /></a>
+											<p>Approver Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/FP&A-Online-List.png" /></a>
+											<p>FP&A <br>Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Business-Online-list.png" /></a>
+											<p>Business Online  List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR-Online-Fill-in.png" /></a>
+											<p>CR <br>Online Fill in</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/CR-Online-Edit.png" /></a>
+											<p>CR <br>Online Edit</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/CR-Confirmation.png" /></a>
+											<p>CR <br>Confirmation</p>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<ul>
+								</div>
+				</nav>
+			</div>
+			<section class="container-fluid list-section">
+				<div class="row wrapper  white-bg page-heading border">
+					<div class="col-lg-12">
+						<!--<h2>Blog</h2>-->
+						<ol class="breadcrumb">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a>CR Tracker</a>
+							</li>
+							<li class="active">
+								<strong class="big-font">CR Tracking</strong>
+							</li>
+						</ol>
+					</div>
+				</div>
+			<div class="container-fluid">
+				<div class="row mt15"></div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="wrapper animated fadeInUp p0">
+							<div class="ibox-title title-h5">
+								<!--<h5>CR Tracking Data Tables</h5>-->
+								<div class="ibox-tools">
+									<a href="edit.html" class="btn btn-primary btn-xs btn-color">CR Creation</a>
+								</div>
+							</div>
+							<div class="ibox-content"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="ibox float-e-margins">
+
+							<div class="table-responsive">
+									<div class="container-fluid wrapselect">
+										<div class="row">
+											<div class="col-xs-3"><span>CR No :&emsp;&emsp;&emsp;&emsp;&emsp;</span><input type="text" name="" id="" value="" class="wrap-common wrap-text pur-num" /></div>
+
+											<div class="col-xs-3"><span>CR Type :</span>
+											<select name="DataTables_Table_0_length" class="wrap-common wrap-select ml-select pur-num">
+														<option value="10">10</option>
+														<option value="25">25</option>
+														<option value="50">50</option>
+														<option value="100">100</option>
+													</select>
+											</div>
+
+											<div class="col-xs-3"><span>Sourcing Buyer :</span><input type="text" name="" id="" value="" class="wrap-common wrap-text pur-num" /></div>
+											<div class="col-xs-3"><span>Status :</span>
+											<select name="DataTables_Table_0_length" class="wrap-common wrap-select pur-num">
+														<option value="10">10</option>
+														<option value="25">25</option>
+														<option value="50">50</option>
+														<option value="100">100</option>
+											</select></div>
+										</div>
+									</div>
+									<div class="container-fluid">
+										<div class="row">
+											<div class="lable-text">
+												<div class="col-xs-3"><label><span>CR Submit Date :</span><input type="text" id='mydatepicker' class="mh36 w180" placeholder="" aria-controls="DataTables_Table_0"></label></div>
+												<div class="col-xs-3"><label class="ml100"><span>To :</span><input type="text" id='mydatepicker2' class="ml5 ml38 w180 mh36" placeholder="" aria-controls="DataTables_Table_0"></label></div>
+											</div>
+										</div>
+									</div>
+							<div class="container-fluid">
+								<table class="table table-striped table-bordered table-hover dataTables-example dataTable h-30" id="DataTables_Table_0"
+									aria-describedby="DataTables_Table_0_info" role="grid">
+									<thead>
+										<tr role="row">
+											<!--<th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 115px;">Rendering engine</th>-->
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 115px;">CR No</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 89px;">CR Type</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 122px;">Requestor Name</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 106px;">Project Name</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 159px;">Sourcing buyer</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 159px;">Submission Date</th>
+											<!--<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 106px;">Contact window</th>-->
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 204px;">Status</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 100px;">CR</th>
+											<th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 100px;">Print</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030023</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">sadasdasdsa</td>
+											<td class="center">administrator</td>
+											<td class="sorting_1">2017/3/7</td>
+											
+											<td>Pending for Purchasing Review</td>
+											<td class="center">asing Review</td>
+											<td class="center">VR </td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030019</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">sadsadasdsa </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/7</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030016</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">asdsadasd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/6</td>
+											
+											<td>Pending for Purchasing Review</td>
+											<td class="center">
+											asing Review
+											</td>
+											<td class="center">VR SS VPW </td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030015</a></td>
+											<td>TJ</td>
+											<td>admin </td>
+											<td class="center">sdsadasd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/6</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030014</a></td>
+											<td>Store</td>
+											<td>admin </td>
+											<td class="center">asdsaddd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/3</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030013</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">asdsadasd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/2</td>
+											
+											<td>Pending for Purchasing Review</td>
+											<td class="center">
+											asing Review
+											</td>
+											<td class="center">VR </td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030012</a></td>
+											<td>Normal</td>
+											<td>admin 	</td>
+											<td class="center">asdsadsad </td>
+											<td class="center">Lin, Kenny </td>
+											<td class="sorting_1">2017/3/2</td>
+											
+											<td>Pending for Purchasing Confirm</td>
+											<td class="center">
+												asing Confirm
+											</td>
+											<td class="center"></td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030011</a></td>
+											<td>TJ</td>
+											<td>admin </td>
+											<td class="center">asdsdsad </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/2</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030008</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">adsadasd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/2</td>
+											
+											<td>CR Done</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030005</a></td>
+											<td>SC</td>
+											<td>admin </td>
+											<td class="center">sadsadasd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for FP&A Review</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR </td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030004</a></td>
+											<td>Store</td>
+											<td>admin </td>
+											<td class="center">sdsdsd </td>
+											<td class="center">Lin, Kenny </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for Purchasing Confirm</td>
+											<td class="center">
+												asing Confirm
+											</td>
+											<td class="center"></td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030003</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">asdsdasdsd </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for FP&A Review</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR </td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030002</a></td>
+											<td>Normal/td>
+											<td>admin </td>
+											<td class="center">asdsadsad </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030002</a></td>
+											<td>Normal/td>
+											<td>admin </td>
+											<td class="center">asdsadsad </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17030001</a></td>
+											<td>Normal/td>
+											<td>admin </td>
+											<td class="center">rqerqer  </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/3/1</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17020007</a></td>
+											<td>Normal/td>
+											<td>admin </td>
+											<td class="center">ADSSAD  </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/2/24</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA odd" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17020006</a></td>
+											<td>AF</td>
+											<td>admin </td>
+											<td class="center">sdsdad </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/2/24</td>
+											
+											<td>CR Done</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+										<tr class="gradeA even" role="row">
+											<td class="sorting_1"><a href="detail.html">CR17020004</a></td>
+											<td>Normal</td>
+											<td>admin </td>
+											<td class="center">sdsDSAD </td>
+											<td class="center">administrator </td>
+											<td class="sorting_1">2017/2/24</td>
+											
+											<td>Pending for FP&A Confirm</td>
+											<td class="center">CR Creation</td>
+											<td class="center">VR CR</td>
+										</tr>
+									</tbody>
+
+								</table>
+								</div>
+							</div>
+							<div class="container-fluid p0 white-bg">
+								<div class="row btn-row">
+									<div class="download"></div>
+									<a data-toggle="modal" id="loadBtn" class="btn btn-primary btn-wrap" href="#modal-form">Show More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+	<!-- Custom and plugin javascript -->
+	<script src="js/inspinia.js"></script>
+	<script src="js/plugins/pace/pace.min.js"></script>
+	<!--<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>-->
+	<script type="text/javascript" src="js/dcalendar.picker.js"></script>
+	<script type="text/javascript">
+		$('#mydatepicker').dcalendarpicker();
+		$('#mydatepicker2').dcalendarpicker({
+			format:'yyyy-mm-dd'
+		});
+		$('#mycalendar').dcalendar();
+	</script>
+
+</html>

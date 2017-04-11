@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>编辑页</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+		<link href="css/plugins/steps/jquery.steps.css" rel="stylesheet">
+
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<!--时间插件样式-->
+		<link href="css/dcalendar.picker.css" rel="stylesheet">
+		<!--上传附件插件-->
+		<link href="css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body id="detail-page">
+		<div class="container-fluid p0">
+			<div class="wrap-box">
+				<header class="list-header">
+					<span class="header-text">Welcome administrator to Online CR Tracking System.</span>
+					<div class="head-right fr icon">
+						<div class="icon icon1 fl">
+							<i></i>
+						</div>
+						<div class="icon icon2 fl">
+							<i></i>
+						</div>
+						<div class="icon icon3 fl">
+							<i></i>
+						</div>
+					</div>
+				</header>
+				<nav class="nav-list">
+					<div class="nav-left fl">
+						<i></i>
+					</div>
+					<div class="nav-right fr">
+						<ul class="index-items clearfloat fix-width">
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="list.html"><img src="img/Task.png" alt="task" /></a>
+									<p>Task</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/CR-Tracker.png" alt="CRTracker" /></a>
+									<p>CR Tracker</p>
+								</div>
+								<div class="wrap-container">
+									<ul class="wrap-items list-items">
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Inquiry.png" /></a>
+											<p>CR Inquiry</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Tracking.png" /></a>
+											<p>CR Tracking</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR Creation.png" /></a>
+											<p>CR Creation</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Mass Upload.png" /></a>
+											<p>Mass Upload</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PO Detail.png" /></a>
+											<p>PO Detail</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PO Detail Upload.png" /></a>
+											<p>PO Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/GR Detail.png" /></a>
+											<p>GR Detail</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/GR Detail Upload.png" /></a>
+											<p>GR Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/IR Detail.png" /></a>
+											<p>IR Detail</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/IR Detail Upload.png" /></a>
+											<p>IR Detail Upload</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/Down Pay Detail.png" /></a>
+											<p>Down Pay Detail</p>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Document-Library.png" alt="DocumentLibray" /></a>
+									<p>Document<br>Libray</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Reports.png" alt="reportsoff" /></a>
+									<p>Reports</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/Master-Data.png" alt="masterdata" /></a>
+									<p>Master Data</p>
+								</div>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/System-Admin.png" alt="SystemAdmin" /></a>
+									<p>System<br>Admin</p>
+							</li>
+							<li class="index-item">
+								<div class="big-item no-active">
+									<a href="#"><img src="img/CR-Online-Creation.png" alt="CROnlineCreation" /></a>
+									<p>CR Online</p>
+								</div>
+								<div class="wrap-container">
+									<ul class="online list-item-online">
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/PR-Online-List.png" /></a>
+											<p>PR <br>Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/VR-Online-List.png" /></a>
+											<p>VR <br>Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Nwxt-Approver-Online-List.png" /></a>
+											<p>Approver Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/FP&A-Online-List.png" /></a>
+											<p>FP&A<br> Online List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/Business-Online-list.png" /></a>
+											<p>Business Online  List</p>
+										</li>
+										<li class="wrap-item list-item">
+											<a href="#"><img src="img/CR-Online-Fill-in.png" /></a>
+											<p>CR <br>Online Fill in</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/CR-Online-Edit.png" /></a>
+											<p>CR <br>Online Edit</p>
+										</li>
+										<li class="wrap-item list-item mb">
+											<a href="#"><img src="img/CR-Confirmation.png" /></a>
+											<p>CR <br>Confirmation</p>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<ul>
+								</div>
+				</nav>
+				</div>
+				<div class="container-fluid list-section">
+					<div class="row wrapper  white-bg page-heading border">
+						<div class="col-lg-12">
+							<!--<h2>Blog</h2>-->
+							<ol class="breadcrumb">
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a>CR Tracker</a>
+								</li>
+								<li>
+									<a>CR Tracking</a>
+								</li>
+								<li class="active">
+									<strong class="big-font">Commitment Request</strong>
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+				<div class="container-fluid">
+					<div class="row mt15"></div>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="wrapper animated fadeInUp p0">
+								<div class="ibox-title title-h5">
+								</div>
+							</div>
+						</div>
+					</div>
+					<section class="container-fluid detail-section">
+				<div class="row">
+					<div class="wrap-detail">
+						<ul class="detail-items clearfloat">
+							<li class="detail-item shape"><span class="ml20">Business Approval</span><i></i></li>
+							<li class="detail-item shape"><span class="line-row">Comments and Signature of Purchasing</span><i></i></li>
+							<li class="detail-item shape-line"><span class="shape-text">Purchasing and FP&A Approval</span><div class="shape-pur"></div></li>
+							<li class="detail-item"><span class="ml10">Finance and Final Approval</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="line"></div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6">
+		                        <h4>(Purchasing <span>to fill in</span>)</h4>
+	                    	</div>
+	                   </div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-4 pur-active">
+	                            <span>CR No/采购申请号:</span><input type="text" id="" name="" value="" placeholder="1101001c" class="cr-no pur-num ml2">
+                            	<div class="col-sm-4 warning" style="display:none;">
+		                        	<div class="warning-text">
+		                        		<span>Please enter correct CR No</span>
+		                        	</div>
+		                        </div>
+	                        </div>
+	                        <div class="col-sm-4">
+	                        	<h4>PO Number/采购订单号</h4>
+	                        </div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-4 flex">
+								<span class="pl10 plnone">Received Date: </span><input type="text" id='mydatepicker' class="datepicker received-date" placeholder="2017/3/3">
+								<!--<input type="text" id="" name="" value="" placeholder="2017/3/3" class="pur-num ml16">-->
+							</div>
+							<div class="col-sm-4 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">C90-</span>  <input type="text" class="pur-num" name="" id="" value="" /></label>
+							</div>
+							<div class="col-sm-4 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">C92-</span>  <input type="text" class="pur-num" name="" id="" value="" /></label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-4 flex">
+								<span class="pl10 plnone">Sourcing Buyer: </span><input type="text" id="" name="" value="" class="pur-num ml16 ml18">
+							</div>
+							<div class="col-sm-4 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">C98-</span>  <input type="text" class="pur-num" name="" id="" value="" /></label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6">
+		                        <h4>(Requestor <span>to fill in</span>)</h4>
+	                    	</div>
+	                   </div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6">
+		                        <span>Legal Entity<span class="span-color">*</span>:</span>
+	                    	</div>
+	                   </div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">adidas Sports (China) Co., Ltd.</span></label>
+							</div>
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">Supplementary:</span> </label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">adidas (China) Ltd.</span></label>
+							</div>
+							<div class="col-sm-6 flex">
+								<span class="pl10">Supplement to existing PO No: </span><input type="text" class="pur-num" name="" id="" value="" />
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">adidas (Suzhou) Co. Ltd.  (PO generated in adirace)</span></label>
+							</div>
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">Additional Approval: "supplement amount ≥ 10%" or "total amount  ≥ CNY 100K" </span> </label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">adidas Logistics (Tianjin) Co., Ltd.</span></label>
+							</div>
+							<div class="col-sm-6 flex">
+								<span class="pl10">(requires approval from VP Finance & MD)</span>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<table border="" cellspacing="" cellpadding="" class="table-width table-first">
+								<tr>
+									<td class="w126">Requestor Name<span class="span-color">*</span>:</td>
+									<td class="w120">Sharry.Li</td>
+									<td class="w64">Email<span class="span-color">*</span>:</td>
+									<td class="w233">Petter.Huang@adidas.com</td>
+									<td class="w146">CR Submission Date<span class="span-color">*</span>:</td>
+									<td class="w104"><input type="text" id='mydatepicker' class="input-none"></td>
+									<td>Dept<span class="span-color">*</span>: </td>
+									<td class="w142">Marketing  </td>
+								</tr>
+							</table>
+							<table border="" cellspacing="" cellpadding="" class="table-width border-top table-two">
+								<tr>
+									<td class="w126">Point of Contact<span class="span-color">*</span>:</td>
+									<td class="w246">
+										<label class="checkbox-inline i-checks"> <input type="checkbox" value="option1"><span class="pl10">Requestor</span></label>
+										<label class="checkbox-inline i-checks ml0"> <input type="checkbox" value="option1"><span class="pl10">Dept Coordinator</span></label>
+									</td>
+									<td class="w64">Email<span class="span-color">*</span>:</td>
+									<td class="w166">Mary.Zhu@adidas.com</td>
+									<td class="w166">Functional Head (M2 or above)<span class="span-color">*</span>:  </td>
+									<td>Mary.Zhu </td>
+									<td class="w104">Estimated Purchase Value<span class="span-color">*</span>: </td>
+									<td class="w64"></td>
+								</tr>
+							</table>
+							<table border="" cellspacing="" cellpadding="" class="table-width border-top table-three">
+								<tr>
+									<td>Statement of Business Needs<span class="span-color">*</span> (Pls elaborate goods specification/service statement of work below or via appendix)<label class="checkbox-inline i-checks pl130"> <input type="checkbox" value="option1"><span class="pl10">Appendix attached</span></label></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<span class="pl10 ml-10">Delivery Date (Goods):</span><input type="text" id='mydatepicker' class="datepicker">
+							</div>
+							<div class="col-sm-6 flex">
+								<span class="pl10">Delivery Duration (Service): form</span><input type="text" id='mydatepicker' class="datepicker"><span class="pl16">to</span><input type="text" id='mydatepicker' class="datepicker">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="wrap-list">
+							<table border="" cellspacing="" cellpadding="" class="table-width table-height">
+								<tr>
+								  <th class="pl10 bfColor color-text">Vendor Name in CN<span class="span-color">*</span>:</th>
+								  <th colspan="2" class="pl10 font-weight">上海中区物业管理有限公司</th>
+								  <th rowspan="2" class="tr-center">Business tax should be included in Unit Price</th>
+								</tr>
+								<tr>
+								  <td class="pl10 bfColor color-text">Vendor Name in EN:</td>
+								  <td class="pl10 font-weight font-color">shanghaizhongqu</td>
+								</tr>
+							</table>
+							<table border="" cellspacing="" cellpadding="" class="table-width border-top table-th">
+								<tr>
+									<th colspan="2">Item/Service description<span class="span-color">*</span></th>
+									<th>Unit price (excl. VAT)</th>
+									<th>Quantity</th>
+									<th>Currency<span class="span-color">*</span></th>
+									<th>Total Price<span class="span-color">*</span>(excl. VAT)"</th>
+									<th>VAT Rate<span class="span-color">*</span></th>
+									<th>Total Amount<span class="span-color">*</span>(incl. VAT)</th>
+									<th>Remarks</th>
+								</tr>
+								<tr>
+									<td class="num">1</td>
+									<td class="textleft">rina ho's rental from 2011-1-2 to 2011-4-1</td>
+									<td>20.00</td>
+									<td>100</td>
+									<td>
+										<select name="" id="select-type" class="selectType">
+											<option value="1" selected = "selected">CNY</option>
+											<option value="2">HKD</option>
+											<option value="3">GBP</option>
+											<option value="4">EUR</option>
+											<option value="5">USD</option>
+										</select>
+									</td>
+									<td>94.34</td>
+									<td>
+										<select name="" id="markdown" class="selectType">
+											<option value="">0%</option>
+											<option value="">3%</option>
+											<option value="" selected = "selected">6%</option>
+											<option value="">11%</option>
+											<option value="">17%</option>
+										</select>
+									</td>
+									<td>100.00</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="num">2</td>
+									<td class="textleft">office badge</td>
+									<td>20.00</td>
+									<td>100</td>
+									<td>
+										<select name="" id="select-type" class="selectType">
+											<option value="1">CNY</option>
+											<option value="2">HKD</option>
+											<option value="3">GBP</option>
+											<option value="4">EUR</option>
+											<option value="5" selected = "selected">USD</option>
+										</select>
+									</td>
+									<td>85.47</td>
+									<td>
+										<select name="" id="markdown" class="selectType">
+											<option value="">0%</option>
+											<option value="">3%</option>
+											<option value="">6%</option>
+											<option value="">11%</option>
+											<option value="" selected = "selected">17%</option>
+										</select>
+									</td>
+									<td>100.00</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="num">3</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td>
+
+									</td>
+									<td></td>
+									<td>
+									</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td colspan="5">Grand Total:</td>
+									<td>179.81</td>
+									<td></td>
+									<td>200.00</td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6 flex">
+								<h3>Project and Account Information  FP&A操作</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<table border="" cellspacing="" cellpadding="" class="table-width table-th">
+								<tr>
+									<th>Item#</th>
+									<th>MWB Project?<span class="span-color">*</span>(for Marketing)</th>
+									<th>Project Recommendation#(required for MWB project)</th>
+									<th>Cost Center</th>
+									<th>Internal Order</th>
+									<th>Asset#</th>
+									<th>A/C</th>
+									<th>Available Budget</th>
+									<th>Remaining Budget</th>
+									<th>Budget Year</th>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>
+										<select name="" id="" class="selectType">
+											<option value=""selected = "selected">Yes</option>
+											<option value="">NO</option>
+										</select>
+									</td>
+									<td>
+										redecoration fee
+									</td>
+									<td>7</td>
+									<td>8</td>
+									<td>8</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+				            <div class="col-sm-6">    
+		                        <form id="my-awesome-dropzone" class="dropzone dz-clickable dzfiles" action="#">
+		                            <div class="dropzone-previews"></div>			                            
+		                            <input type="" name="" id="" value=""  class="dz-default dz-message uploadfile"/>
+		                            <button type="submit" class="btn pull-right add-right">Add File</button>
+		                            <input type="file" name="" id="" value="" class="choice-file"/><button type="" class="btn pull-right add-left">Browse</button>
+		                        </form>
+				            </div>
+				       </div>
+			        </div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="dashed mt15"></div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-6">
+								<h3>Comments and Signature of FP&A:</h3>
+							</div>
+							<div class="col-sm-6">
+								<label class="checkbox-inline i-checks ml230"> <input type="checkbox" value="option1"><span class="pl10">Asset Code to be created</span></label>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-12">
+								<textarea name="" rows="" cols="" class="textarea"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-12">
+								<h3>Comments of Purchasing</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="wrap-list">
+							<div class="col-sm-12">
+								<div class="wrap-textarea textarea">
+									<textarea name="" rows="" cols="" class="textarea-content"></textarea>
+									<div class="signname" id="signname">
+										<span>Sourcing Buyer:</span><input type="text" class="buyername" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt15">
+						<div class="col-sm-12 line-bottom">
+
+						</div>
+					</div>
+					<div class="row mt10">
+						<div class="col-sm-12">
+							<div class="popup-btn fl fr mb60">
+								<a href="list.html"><div class="wrapCancel fl"><input type="button" class="Cancel" id="Cancel" value="Cancel"/></div></a>
+								<div class="wrapSubmit fl">
+									<i></i>
+									<a href="list.html"><button class="btn btnColor" type="button"><i class="fa fa-check"></i>&nbsp;Submit</button></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+				</div>
+				<!--<div class="container-fluid pt30 m34">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="wrapper animated fadeInUp">
+								<div class="ibox-title title-h5 po-title">
+							
+								</div>
+								<div class="ibox-content"></div>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				</div>
+			</div>
+			
+	</body>
+	<script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<!-- DROPZONE -->
+    <script src="js/plugins/dropzone/dropzone.js"></script>
+	<!-- Custom and plugin javascript -->
+	<script src="js/inspinia.js"></script>
+	<!-- <script src="js/plugins/pace/pace.min.js"></script> -->
+	<!-- iCheck -->
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <script type="text/javascript" src="js/dcalendar.picker.js"></script>
+	<!-- Steps -->
+	<!--<script src="js/plugins/staps/jquery.steps.min.js"></script>-->
+	<!-- Jquery Validate -->
+	<!--<script src="js/plugins/validate/jquery.validate.min.js"></script>-->
+	<script type="text/javascript">
+		$('#mydatepicker').dcalendarpicker();
+		$('.datepicker').dcalendarpicker();
+		$('#mydatepicker2').dcalendarpicker({
+			format:'yyyy-mm-dd'
+		});
+		$('#mycalendar').dcalendar();
+		$('.calendar').dcalendar();
+	</script>
+	<script>
+		$(document).ready(function(){
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+	</script>
+	<script>
+		//上传附件插件
+	Dropzone.options.myAwesomeDropzone = {
+
+	        autoProcessQueue: false,
+	        uploadMultiple: true,
+	        parallelUploads: 100,
+	        maxFiles: 100,
+	
+	        // Dropzone settings
+	        init: function() {
+	            var myDropzone = this;
+	
+	            this.element.querySelector("button[type=submit]").addEventListener("click", function(e) {
+	                e.preventDefault();
+	                e.stopPropagation();
+	                myDropzone.processQueue();
+	            });
+	            this.on("sendingmultiple", function() {
+	            });
+	            this.on("successmultiple", function(files, response) {
+	            });
+	            this.on("errormultiple", function(files, response) {
+	            });
+	        }
+	
+	    }
+	</script>
+</html>
